@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e41a8ad6-5170-4e7e-a053-ed5aa1abaa3e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../2020/股票预测.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../2020/股票预测.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,6 +109,9 @@
       <module name="playML" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -204,6 +206,7 @@
       <workItem from="1591773153552" duration="277000" />
       <workItem from="1593508435823" duration="30513000" />
       <workItem from="1595077653918" duration="4556000" />
+      <workItem from="1595606997061" duration="358000" />
     </task>
     <servers />
   </component>
@@ -275,11 +278,11 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="375" y="237" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1/0.0.1680.1050@0.0.1680.1050" timestamp="1590996269597" />
-    <state x="519" y="355" key="com.intellij.ide.util.TipDialog" timestamp="1595077676254">
+    <state x="519" y="355" key="com.intellij.ide.util.TipDialog" timestamp="1595606998950">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="519" y="355" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1593508435091" />
-    <state x="519" y="355" key="com.intellij.ide.util.TipDialog/0.23.1680.975@0.23.1680.975" timestamp="1595077676254" />
+    <state x="519" y="355" key="com.intellij.ide.util.TipDialog/0.23.1680.975@0.23.1680.975" timestamp="1595606998950" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1593865895592">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
