@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e41a8ad6-5170-4e7e-a053-ed5aa1abaa3e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tensor/1linear_regression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensor/AutoGrad.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensor/Minist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensor/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensor/data/data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2020/迁移学习 识别苹果.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../2020/迁移学习 识别苹果.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_linear_system.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_linear_system.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_vector.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_vector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playLA/LinearSystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/playLA/LinearSystem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playLA/Vector.py" beforeDir="false" afterPath="$PROJECT_DIR$/playLA/Vector.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,21 +48,18 @@
       <recent name="$PROJECT_DIR$/mooc" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.keras_mnist">
-    <configuration name="FANREN" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Minist">
+    <configuration name="1linear_regression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="playML" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensor" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FANREN.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensor/1linear_regression.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -61,7 +68,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="LU" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="AutoGrad" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="playML" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -69,12 +76,31 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/playLA" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensor" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/playLA/LU.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensor/AutoGrad.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Minist" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="playML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensor" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensor/Minist.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -99,28 +125,6 @@
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="keras_mnist" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="playML" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/keras_mnist.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -173,18 +177,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.main_vector" />
-      <item itemvalue="Python.FANREN" />
       <item itemvalue="Python.main_linear_system" />
-      <item itemvalue="Python.LU" />
-      <item itemvalue="Python.keras_mnist" />
+      <item itemvalue="Python.AutoGrad" />
+      <item itemvalue="Python.1linear_regression" />
+      <item itemvalue="Python.Minist" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.keras_mnist" />
-        <item itemvalue="Python.LU" />
+        <item itemvalue="Python.Minist" />
+        <item itemvalue="Python.1linear_regression" />
+        <item itemvalue="Python.AutoGrad" />
         <item itemvalue="Python.main_linear_system" />
         <item itemvalue="Python.main_vector" />
-        <item itemvalue="Python.FANREN" />
       </list>
     </recent_temporary>
   </component>
@@ -207,6 +211,9 @@
       <workItem from="1593508435823" duration="30513000" />
       <workItem from="1595077653918" duration="4556000" />
       <workItem from="1595606997061" duration="358000" />
+      <workItem from="1596423896971" duration="1411000" />
+      <workItem from="1597068946170" duration="1289000" />
+      <workItem from="1597648535713" duration="4131000" />
     </task>
     <servers />
   </component>
@@ -214,6 +221,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="974" y="158" key="#AutoGrad" timestamp="1597069815323">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="974" y="158" key="#AutoGrad/0.0.1680.1050@0.0.1680.1050" timestamp="1597069815323" />
     <state x="440" y="190" key="#Deployment" timestamp="1595321666383">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -222,10 +233,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="974" y="158" key="#LU/0.0.1680.1050@0.0.1680.1050" timestamp="1594968105197" />
-    <state x="304" y="187" width="1071" height="696" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594720969289">
+    <state x="304" y="187" width="1071" height="696" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597667076169">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="304" y="187" width="1071" height="696" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1594720969289" />
+    <state x="304" y="187" width="1071" height="696" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1597667076169" />
     <state x="653" y="248" key="#com.intellij.ide.util.MemberChooser" timestamp="1590892356417">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -238,38 +249,38 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="974" y="158" key="#main_vector/0.0.1680.1050@0.0.1680.1050" timestamp="1594870586380" />
-    <state width="788" height="295" key="GridCell.Tab.0.bottom" timestamp="1595294864640">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1597677925614">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="788" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1595294864640" />
-    <state width="788" height="295" key="GridCell.Tab.0.center" timestamp="1595294864639">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1597677925614" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1597677925613">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="788" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1595294864639" />
-    <state width="788" height="295" key="GridCell.Tab.0.left" timestamp="1595294864639">
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1597677925613" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1597677925613">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="788" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1595294864639" />
-    <state width="788" height="295" key="GridCell.Tab.0.right" timestamp="1595294864640">
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1597677925613" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1597677925614">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="788" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1595294864640" />
-    <state width="1638" height="363" key="GridCell.Tab.1.bottom" timestamp="1595255178530">
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1597677925614" />
+    <state width="788" height="363" key="GridCell.Tab.1.bottom" timestamp="1596895331898">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="363" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1595255178530" />
-    <state width="1638" height="363" key="GridCell.Tab.1.center" timestamp="1595255178529">
+    <state width="788" height="363" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1596895331898" />
+    <state width="788" height="363" key="GridCell.Tab.1.center" timestamp="1596895331897">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="363" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1595255178529" />
-    <state width="1638" height="363" key="GridCell.Tab.1.left" timestamp="1595255178528">
+    <state width="788" height="363" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1596895331897" />
+    <state width="788" height="363" key="GridCell.Tab.1.left" timestamp="1596895331897">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="363" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1595255178528" />
-    <state width="1638" height="363" key="GridCell.Tab.1.right" timestamp="1595255178530">
+    <state width="788" height="363" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1596895331897" />
+    <state width="788" height="363" key="GridCell.Tab.1.right" timestamp="1596895331898">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="363" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1595255178530" />
+    <state width="788" height="363" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1596895331898" />
     <state x="310" y="153" key="SettingsEditor" timestamp="1595321326386">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -278,10 +289,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="375" y="237" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1/0.0.1680.1050@0.0.1680.1050" timestamp="1590996269597" />
-    <state x="519" y="355" key="com.intellij.ide.util.TipDialog" timestamp="1595606998950">
-      <screen x="0" y="23" width="1680" height="975" />
+    <state x="519" y="355" key="com.intellij.ide.util.TipDialog" timestamp="1597648535941">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="519" y="355" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1593508435091" />
+    <state x="519" y="355" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1597648535941" />
     <state x="519" y="355" key="com.intellij.ide.util.TipDialog/0.23.1680.975@0.23.1680.975" timestamp="1595606998950" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1593865895592">
       <screen x="0" y="0" width="1680" height="1050" />
@@ -306,12 +317,15 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/playML$keras_mnist.coverage" NAME="keras_mnist Coverage Results" MODIFIED="1595294864632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/playML$main_linear_system.coverage" NAME="main_linear_system Coverage Results" MODIFIED="1594885789858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/playML$AutoGrad.coverage" NAME="AutoGrad Coverage Results" MODIFIED="1597069818941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensor" />
+    <SUITE FILE_PATH="coverage/playML$main_linear_system.coverage" NAME="main_linear_system Coverage Results" MODIFIED="1596424835441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/playML$PCA.coverage" NAME="PCA Coverage Results" MODIFIED="1590892337450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/playML$neural_network.coverage" NAME="neural_network Coverage Results" MODIFIED="1590996438315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shang" />
+    <SUITE FILE_PATH="coverage/playML$1linear_regression.coverage" NAME="1linear_regression Coverage Results" MODIFIED="1597649734271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensor" />
+    <SUITE FILE_PATH="coverage/playML$Minist.coverage" NAME="Minist Coverage Results" MODIFIED="1597677304787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensor" />
     <SUITE FILE_PATH="coverage/playML$FANREN.coverage" NAME="FANREN Coverage Results" MODIFIED="1593869088962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/playML$LU.coverage" NAME="LU Coverage Results" MODIFIED="1595254886977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/playLA" />
     <SUITE FILE_PATH="coverage/playML$TensorFlow.coverage" NAME="TensorFlow Coverage Results" MODIFIED="1593566503238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shang" />
-    <SUITE FILE_PATH="coverage/playML$main_vector.coverage" NAME="main_vector Coverage Results" MODIFIED="1594870588680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/playML$main_vector.coverage" NAME="main_vector Coverage Results" MODIFIED="1596424694889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

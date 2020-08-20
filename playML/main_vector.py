@@ -13,7 +13,7 @@ if __name__ == "__main__":
     print("{}+{}={}".format(3, vec2, 3 * vec2))
     print("+{}={}".format(vec, +vec))
     print("-{}={}".format(vec, -vec))
-
+    zero2 = Vector.zero(2)
     A7 = Matrix([[1, -1, 2, 0, 3],
                  [-1, 1, 0, 2, -5],
                  [1, -1, 4, 2, 4],
@@ -22,3 +22,8 @@ if __name__ == "__main__":
     ls7 = LinearSystem(A7, b7)
     ls7.gauss_jordan_elimination()
     ls7.fancy_print()
+
+    vec3 = Vector([0, 0])
+    print("{} == {} ? {} ".format(zero2, vec3, vec3 == zero2))
+    print("{} == {} ? {} ".format(vec2, vec3, vec3 == vec2))
+    print("{} != {} ? {} ".format(vec2, vec3, vec3 != vec2))

@@ -1,5 +1,5 @@
 import math
-from ._global import is_zero
+from ._global import is_zero, is_equal
 
 
 class Vector:
@@ -36,6 +36,15 @@ class Vector:
         if is_zero(self.norm()):
             raise ZeroDivisionError("Nomalize error. norm is zero")
         return Vector(self._values) / self.norm()
+
+    def __eq__(self, other):
+        other_list = other.underlying_list()
+        if (len(other_list) != len(self._values)):
+            return false
+        return all(is_equal(x, y) for x, y in zip(self._values, other_list))
+
+    def __neq__(self, other):
+        return not (self == other)
 
     def __sub__(self, another):
         assert len(self) == len(another), \
