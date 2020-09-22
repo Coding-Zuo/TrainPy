@@ -1,23 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e41a8ad6-5170-4e7e-a053-ed5aa1abaa3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tensor/7/2ndgrad.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensor/7/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensor/board.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensor/clip.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensor/fishionMinist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensor/keras_metrics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensor/keras_mydense.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensor/meshgird.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensor/topk_acc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensor/反向.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weibo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weibo/手写聚类.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2020/迁移学习 识别苹果.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../2020/迁移学习 识别苹果.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/other.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+    <list default="true" id="e41a8ad6-5170-4e7e-a053-ed5aa1abaa3e" name="Default Changelist" comment="rs">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensor/CAFIA100.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensor/keras_train.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensor/forward.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensor/forward.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +33,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="PyScientificConfigurable" />
@@ -53,8 +43,8 @@
       <recent name="$PROJECT_DIR$/mooc" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.keras_mydense">
-    <configuration name="手写聚类" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.CAFIA100">
+    <configuration name="CAFIA100" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="playML" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -62,34 +52,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="/usr/local/Cellar/python/3.7.7/bin/python3" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/weibo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensor" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/weibo/手写聚类.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="2ndgrad" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="playML" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensor/7" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensor/7/2ndgrad.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensor/CAFIA100.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -208,20 +176,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="keras_train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="playML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/Cellar/python/3.7.7/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensor" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensor/keras_train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.2ndgrad" />
-      <item itemvalue="Python.手写聚类" />
       <item itemvalue="Python.fishionMinist" />
       <item itemvalue="Python.board" />
       <item itemvalue="Python.keras_mydense" />
+      <item itemvalue="Python.keras_train" />
+      <item itemvalue="Python.CAFIA100" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.CAFIA100" />
+        <item itemvalue="Python.keras_train" />
         <item itemvalue="Python.keras_mydense" />
         <item itemvalue="Python.board" />
         <item itemvalue="Python.fishionMinist" />
-        <item itemvalue="Python.手写聚类" />
-        <item itemvalue="Python.手写聚类" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +242,7 @@
       <workItem from="1598930529907" duration="926000" />
       <workItem from="1598956497765" duration="3410000" />
       <workItem from="1600473601471" duration="3366000" />
-      <workItem from="1600509973848" duration="9525000" />
+      <workItem from="1600509973848" duration="18736000" />
     </task>
     <servers />
   </component>
@@ -268,10 +258,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="974" y="158" key="#AutoGrad/0.0.1680.1050@0.0.1680.1050" timestamp="1597069815323" />
-    <state x="440" y="190" key="#Deployment" timestamp="1595321666383">
+    <state x="440" y="190" key="#Deployment" timestamp="1600759816503">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="190" key="#Deployment/0.0.1680.1050@0.0.1680.1050" timestamp="1595321666383" />
+    <state x="440" y="190" key="#Deployment/0.0.1680.1050@0.0.1680.1050" timestamp="1600759816503" />
     <state x="974" y="158" key="#LU" timestamp="1594968105197">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -304,24 +294,28 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="549" y="158" key="#手写聚类/0.0.1680.1050@0.0.1680.1050" timestamp="1599055606779" />
-    <state width="788" height="295" key="GridCell.Tab.0.bottom" timestamp="1600657401811">
+    <state x="859" y="127" key="CommitChangelistDialog2" timestamp="1600745062752">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="788" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1600657401811" />
-    <state width="788" height="295" key="GridCell.Tab.0.center" timestamp="1600657401810">
+    <state x="859" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1600745062752" />
+    <state width="788" height="295" key="GridCell.Tab.0.bottom" timestamp="1600759838974">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="788" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1600657401810" />
+    <state width="788" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1600759838974" />
+    <state width="788" height="295" key="GridCell.Tab.0.center" timestamp="1600759838973">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="788" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1600759838973" />
     <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.998@0.0.1680.998" timestamp="1598487682624" />
-    <state width="788" height="295" key="GridCell.Tab.0.left" timestamp="1600657401810">
+    <state width="788" height="295" key="GridCell.Tab.0.left" timestamp="1600759838972">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="788" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1600657401810" />
+    <state width="788" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1600759838972" />
     <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.998@0.0.1680.998" timestamp="1598487682608" />
-    <state width="788" height="295" key="GridCell.Tab.0.right" timestamp="1600657401811">
+    <state width="788" height="295" key="GridCell.Tab.0.right" timestamp="1600759838974">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="788" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1600657401811" />
+    <state width="788" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1600759838974" />
     <state width="788" height="363" key="GridCell.Tab.1.bottom" timestamp="1598487682660">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -390,8 +384,10 @@
     <SUITE FILE_PATH="coverage/playML$fishionMinist.coverage" NAME="fishionMinist Coverage Results" MODIFIED="1600513574649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensor" />
     <SUITE FILE_PATH="coverage/playML$TensorFlow.coverage" NAME="TensorFlow Coverage Results" MODIFIED="1593566503238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shang" />
     <SUITE FILE_PATH="coverage/playML$main_vector.coverage" NAME="main_vector Coverage Results" MODIFIED="1596424694889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/playML$CAFIA100.coverage" NAME="CAFIA100 Coverage Results" MODIFIED="1600759257076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensor" />
     <SUITE FILE_PATH="coverage/playML$keras_mnist.coverage" NAME="keras_mnist Coverage Results" MODIFIED="1595294864632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/playML$main_linear_system.coverage" NAME="main_linear_system Coverage Results" MODIFIED="1596424835441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/playML$keras_train.coverage" NAME="keras_train Coverage Results" MODIFIED="1600665223618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensor" />
     <SUITE FILE_PATH="coverage/playML$keras_mydense.coverage" NAME="keras_mydense Coverage Results" MODIFIED="1600656501276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensor" />
     <SUITE FILE_PATH="coverage/playML$PCA.coverage" NAME="PCA Coverage Results" MODIFIED="1590892337450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/playML$neural_network.coverage" NAME="neural_network Coverage Results" MODIFIED="1590996438315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shang" />
